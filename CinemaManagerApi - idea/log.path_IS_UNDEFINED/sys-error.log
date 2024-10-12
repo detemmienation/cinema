@@ -1,0 +1,33 @@
+20:26:06.540 [Druid-ConnectionPool-Create-933622854] ERROR c.a.d.p.DruidDataSource - [run,2787] - create connection SQLException, url: jdbc:mysql://localhost:3306/cinema_manager?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=Asia/Shanghai, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1652)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2785)
+20:27:14.192 [http-nio-9231-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - [log,175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.reflect.InvocationTargetException] with root cause
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1652)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2785)
+20:44:36.619 [http-nio-9231-exec-5] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:44:38.550 [http-nio-9231-exec-1] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:44:38.677 [http-nio-9231-exec-2] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:44:39.417 [http-nio-9231-exec-3] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:44:42.980 [http-nio-9231-exec-4] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:45:18.373 [http-nio-9231-exec-8] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:45:18.385 [http-nio-9231-exec-7] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:45:19.998 [http-nio-9231-exec-9] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
+20:45:30.891 [http-nio-9231-exec-10] ERROR c.r.c.s.JwtFilter - [isAccessAllowed,48] - JwtFilter过滤验证失败
