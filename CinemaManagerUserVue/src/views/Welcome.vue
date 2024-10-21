@@ -8,9 +8,9 @@
                     >
                         <img
                             style="height: 30px; margin-bottom: -5px"
-                            src="../assets/homeLogo.jpg"
+                            src="../assets/homeLogo.png"
                         />
-                        兔兔影院
+                        影响力
                     </div>
                 </a>
                 <el-menu

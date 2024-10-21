@@ -36,7 +36,7 @@
       <div class="movie-info-detail clearfix">
         <div class="main-content">
           <div class="crumbs-nav-container">
-            <a href="/welcome">兔兔影院</a> &gt; <a href="/movie">电影</a> &gt; {{movieInfo.movieName}}
+            <a href="/welcome">影响力</a> &gt; <a href="/movie">电影</a> &gt; {{movieInfo.movieName}}
           </div>
           <el-tabs v-model="activeName">
             <el-tab-pane label="介绍" name="introduction">
@@ -172,7 +172,7 @@ a{
   width: 100%;
   min-width: 1200px;
   /* background: url('../../assets/movie-info-background.jpg') */
-  
+
   background: radial-gradient( pink, lightblue);
 }
 

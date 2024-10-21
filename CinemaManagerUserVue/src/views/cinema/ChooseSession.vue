@@ -43,7 +43,7 @@
             <div class="movie-info-detail clearfix">
                 <div class="main-content">
                     <div class="crumbs-nav-container">
-                        <a href="/welcome">兔兔影院</a> &gt;
+                        <a href="/welcome">影响力</a> &gt;
                         <a href="/aboutUs"> {{ cinemaInfo.cinemaName }}</a>
                     </div>
                     <!-- 影院正在上映的所有电影 -->
